@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  mount_uploader :avatar, AvatarUploader
   has_many :posts, dependent: :destroy
   has_many :comments
   # Include default devise modules. Others available are:

@@ -14,7 +14,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 gem 'devise'
-
+gem 'carrierwave'
 gem 'omniauth-facebook'
 gem 'omniauth-linkedin'
 # Use jquery as the JavaScript library
